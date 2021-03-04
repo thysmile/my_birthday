@@ -31,11 +31,62 @@
     display: flex;
     justify-content: space-around;
     .spacing {
-      span{
+      span {
         display: inline-block;
         font-weight: bolder;
         animation: mover 6s linear infinite;
         color: #fff;
+      }
+      .color-1 {
+        color: red;
+      }
+      .color-2 {
+        color: yellow;
+      }
+      .color-3 {
+        color: green;
+      }
+      .color-4 {
+        color: palevioletred;
+      }
+      .color-5 {
+        color: orange;
+      }
+      .color-6 {
+        color: palegoldenrod;
+      }
+      .color-7 {
+        color: purple;
+      }
+      .color-8 {
+        color: navy;
+      }
+      .color-9 {
+        color: mediumspringgreen;
+      }
+      .color-10 {
+        color: lightpink;
+      }
+      .color-11 {
+        color: hotpink;
+      }
+      .color-12 {
+        color: maroon;
+      }
+      .color-13 {
+        color: mediumturquoise;
+      }
+      .color-14 {
+        color: royalblue;
+      }
+      .color-15 {
+        color: seagreen;
+      }
+      .color-16 {
+        color: darkred;
+      }
+      .color-17 {
+        color: deepskyblue;
       }
       span:nth-child(1) {
         animation-delay: 0.5s;
@@ -91,17 +142,16 @@
     }
   }
 
-  
-  @keyframes mover{
+  @keyframes mover {
     0% {
-      text-shadow: 0 0 30px rgba(0, 0, 0,0);
+      text-shadow: 0 0 30px rgba(0, 0, 0, 0);
     }
     50% {
       text-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
       transform: translateY(50%);
     }
     100% {
-      text-shadow: 0 0 30px rgba(0, 0, 0, 0 );
+      text-shadow: 0 0 30px rgba(0, 0, 0, 0);
     }
   }
 }
@@ -137,7 +187,7 @@
       padding: 0 1rem;
     }
     .text-box {
-      font-size: 20px !important;
+      font-size: 25px !important;
     }
   }
 }

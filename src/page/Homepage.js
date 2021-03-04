@@ -13,29 +13,29 @@ export default function Homepage() {
       </div>
       <div className="text-box">
         <div className="spacing">
-          <span>H</span>
-          <span>a</span>
-          <span>p</span>
-          <span>p</span>
-          <span>y</span>
+          <span className="color-1">H</span>
+          <span className="color-2">a</span>
+          <span className="color-3">p</span>
+          <span className="color-4">p</span>
+          <span className="color-5">y</span>
         </div>
         <div className="spacing">
-          <span>b</span>
-          <span>i</span>
-          <span>r</span>
-          <span>t</span>
-          <span>h</span>
-          <span>d</span>
-          <span>a</span>
-          <span>y</span>
+          <span className="color-6">b</span>
+          <span className="color-7">i</span>
+          <span className="color-8">r</span>
+          <span className="color-9">t</span>
+          <span className="color-10">h</span>
+          <span className="color-11">d</span>
+          <span className="color-12">a</span>
+          <span className="color-13">y</span>
         </div>
         <div className="spacing">
-          <span>t</span>
-          <span>o</span>
+          <span className="color-14">t</span>
+          <span className="color-15">o</span>
         </div>
         <div className="spacing">
-          <span>m</span>
-          <span>e</span>
+          <span className="color-16">m</span>
+          <span className="color-17">e</span>
         </div>
       </div>
     </div>
