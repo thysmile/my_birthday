@@ -173,7 +173,7 @@
 @media screen and (max-width: 510px) {
   .background-container {
     .logo-container {
-      display: none;
+    
     }
     .text-box {
       font-size: 15px !important;
@@ -183,11 +183,19 @@
 @media screen and (max-width: 415px) {
   .background-container {
     .logo-container {
-      display: flex;
+     
       padding: 0 1rem;
     }
     .text-box {
       font-size: 25px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .background-container {
+    .text-box {
+      width: 85%;
     }
   }
 }
